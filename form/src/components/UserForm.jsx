@@ -44,14 +44,10 @@ function UserForm() {
         />
       </Form.Group>
 
-      <Form.Group className="mb-3" controlId="formEmail">
-        <Form.Label>Email Address</Form.Label>
-        <Form.Control
-          type="email"
-          placeholder="Enter Email"
-          name="email"
-          onChange={handelform}
-        />
+     
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formPassword" >
